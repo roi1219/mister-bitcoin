@@ -1,0 +1,12 @@
+.contact-edit{
+    margin-top: 30px;
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        >*{
+            margin: 5px;
+            width: 250px;
+        }
+    }
+}

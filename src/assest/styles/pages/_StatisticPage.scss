@@ -1,0 +1,27 @@
+.statistic-page {
+    text-align: center;
+    width: 900px;
+    margin: 0 auto;
+    .charts {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 30px;
+        > * {
+            width: fit-content;
+            border: 1px solid lightgray;
+            padding: 20px;
+            h2 {
+                margin: 0;
+                margin-bottom: 10px;
+                text-decoration: underline;
+            }
+        }
+    }
+    .charts div:nth-of-type(even){
+        align-self: flex-end;
+    }
+    svg {
+        width: 400px;
+    }
+}
